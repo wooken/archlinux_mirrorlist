@@ -1,5 +1,3 @@
-# Generate Pacman Mirrorlist
-
 This is a script to automate the generation of a mirror list for Archlinux's Pacman from `mirrorlist.pacnew` file.
 
 The output file is `mirrorlist`, which you can then move to the appropriate directory.
