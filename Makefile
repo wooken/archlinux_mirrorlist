@@ -1,5 +1,5 @@
 build:
 	cp /etc/pacman.d/mirrorlist.pacnew mirrorlist.pacnew
-	awk -f gen_mirrorlist.awk mirrorlist.pacnew
+	./gen_mirrorlist mirrorlist.pacnew
 
 .PHONY: build
