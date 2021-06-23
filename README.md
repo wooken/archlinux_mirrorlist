@@ -2,6 +2,9 @@ This is a script to automate the generation of a mirror list for Archlinux's Pac
 
 The output file is `mirrorlist`, which you can then move to the appropriate directory.
 
+## Requirements
+- `pacman-contrib` package which contains `rankmirrors` tool
+
 ## Usage
 
 ### Rank and generate mirrorlist file
